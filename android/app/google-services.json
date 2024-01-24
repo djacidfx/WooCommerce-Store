@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338061115914",
+    "project_id": "flutter-woocommerce-215c4",
+    "storage_bucket": "flutter-woocommerce-215c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338061115914:android:0d80700c4144f519a7d5f3",
+        "android_client_info": {
+          "package_name": "com.flutter.woocommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338061115914-jraerjurorrn7acuul84ja3dos4shkh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv-KqImlvzhhnWAPHb7pj3W265B0JJt1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338061115914-jraerjurorrn7acuul84ja3dos4shkh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

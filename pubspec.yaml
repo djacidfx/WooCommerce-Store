@@ -1,0 +1,83 @@
+name: woocommerce
+description: A Flutter ecommerce app using woocommerce for backend.
+
+version: 1.1.0+2
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  after_layout: ^1.1.0
+  async: ^2.8.2
+  badges: ^2.0.2
+  carousel_slider: ^4.1.1
+  change_app_package_name: ^1.1.0
+  cloud_firestore: ^3.1.14
+  community_material_icon: ^5.9.5
+  connection_notifier: ^0.0.1
+  cupertino_icons: ^1.0.4
+  dio: ^4.0.6
+  double_back_to_close_app: ^2.1.0
+  file_picker: ^4.5.1
+  firebase_storage: ^10.2.15
+  flutter:
+    sdk: flutter
+  flutter_credit_card: ^3.0.1
+  flutter_email_sender: ^5.1.0
+  flutter_facebook_auth: ^4.3.3
+  flutter_inappwebview: ^5.4.3+7
+  flutter_paypal: ^0.0.8
+  flutter_paystack: ^1.0.5+1
+  flutter_widget_from_html: ^0.8.5
+  font_awesome_flutter: ^10.1.0
+  google_sign_in: ^5.3.1
+  http: ^0.13.4
+  http_auth: ^1.0.1
+  image_cropper: ^2.0.2
+  image_gallery_saver: ^1.7.1
+  image_picker: ^0.8.5+1
+  introduction_screen: ^3.0.2
+  modal_bottom_sheet: ^2.0.1
+  onesignal_flutter: ^3.3.0
+  permission_handler: ^9.2.0
+  persistent_bottom_nav_bar: ^4.0.2
+  provider: ^6.0.2
+  pull_to_refresh: ^2.0.0
+  rating_dialog: ^2.0.4
+  screenshot: ^1.2.3
+  share_plus: ^4.0.4
+  shared_preferences: ^2.0.14
+  store_redirect: ^2.0.1
+  wakelock: ^0.6.1+2
+
+dev_dependencies:
+  flutter_launcher_icons: null
+  flutter_lints: ^1.0.0
+  flutter_native_splash: null
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: "assets/res/icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  background_image: "assets/res/splash.png"
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/res/
+    - assets/onboarding/
+
+  fonts:
+    - family: Baloo Da 2
+      fonts:
+        - asset: fonts/BalooDa2-Bold.ttf
+        - asset: fonts/BalooDa2-ExtraBold.ttf
+        - asset: fonts/BalooDa2-SemiBold.ttf
+        - asset: fonts/BalooDa2-Medium.ttf
+        - asset: fonts/BalooDa2-Regular.ttf
